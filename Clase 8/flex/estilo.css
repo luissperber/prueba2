@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.padre{
+    background-color: green;
+   /*  height: 50vh; /* viewport height: 100% del lo que se ve */
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center; 
+
+    /* El justify-content alinea en dirección del flex-direction, y el align-items en la perpendicular */
+
+    
+
+
+}
+
+.padre .hijo{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    background-color: blueviolet;
+}
+
+.padre .especial{
+    background-color: red;
+
+}
